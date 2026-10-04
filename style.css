@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+}
+
+/* Header */
+.header {
+    background-color: #ff7a59;
+    color: white;
+
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 45px;
+    margin: 0;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+.navbar {
+    margin-top: 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+
+    margin-top: 0;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ffe4d6;
+}
+
+/* Main */
+.main {
+    width: 85%;
+    max-width: 1000px;
+
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+
+/* About */
+.about {
+    padding-top: 30px;
+    padding-right: 0;
+    padding-bottom: 30px;
+    padding-left: 0;
+
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    color: #e85d04;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Image */
+.hobby-image {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+
+    display: block;
+    border: 8px solid #ffd6ba;
+}
+
+/* Benefits */
+.benefits {
+    background-color: #ffe8d6;
+
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+
+    margin-top: 30px;
+    margin-right: 0;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.benefits h2 {
+    color: #d94801;
+}
+
+.benefits li {
+    margin-top: 15px;
+    margin-right: 0;
+    margin-bottom: 15px;
+    margin-left: 0;
+
+    font-size: 17px;
+}
+
+/* Favorites */
+.favorites {
+    padding-top: 30px;
+    padding-right: 0;
+    padding-bottom: 30px;
+    padding-left: 0;
+}
+
+.favorites h2 {
+    color: #e85d04;
+}
+
+.favorites li {
+    margin-top: 12px;
+    margin-right: 0;
+    margin-bottom: 12px;
+    margin-left: 0;
+}
+
+/* Links */
+.links {
+    background-color: #6a994e;
+    color: white;
+
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+
+    margin-top: 30px;
+    margin-right: 0;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.links h2 {
+    margin-top: 0;
+}
+
+.links a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+.contact h2 {
+    color: #e85d04;
+}
+
+.contact button {
+    background-color: #ff7a59;
+    color: white;
+    border: none;
+
+    padding-top: 14px;
+    padding-right: 30px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #d94801;
+}
+
+/* Lines */
+.main hr {
+    border: none;
+    border-top: 1px solid #f0b894;
+
+    margin-top: 40px;
+    margin-right: 0;
+    margin-bottom: 40px;
+    margin-left: 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.footer p {
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .header h1 {
+        font-size: 32px;
+    }
+
+    .main {
+        width: 90%;
+    }
+
+    .hobby-image {
+        width: 220px;
+        height: 220px;
+    }
+
+    .navbar a {
+        display: block;
+
+        margin-top: 12px;
+        margin-right: 0;
+        margin-bottom: 12px;
+        margin-left: 0;
+    }
+}
+
+/*
+Padding:
+The space between the content and the border.
+
+Margin:
+The space outside the border, between the element and other elements.
+
+Remember:
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+*/
